@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@500&display=swap');
+
+:root{
+    --primary-color: #FFE652;        
+}
+
+body{
+    font-family: 'M PLUS 1', sans-serif;
+    margin: 0; 
+}
+
+.header{
+    background-color: var(--primary-color);
+    font-size: 1.5rem;
+    padding-top: 0.5rem;         
+    text-align: center;      
+}
+
+.header h1{
+    display: inline-block;    
+}
+.header .header-logo{
+    max-height: 85px; 
+    padding: 30px 0 0 10px ;     
+}
+
+.container-center{
+   margin: auto;
+   padding: 1rem;
+   max-width: 600px;
+}
+
+.text-area{
+    border: solid black;
+    height: 20vh;
+    width: 100%;
+    margin: 1rem 0rem;
+    padding: 1rem;
+}
+
+#btn-Convert{   
+    font-family: "Pangolin",sans-serif; 
+    font-size: large;
+    background-color: var(--primary-color);
+    border: solid;
+    border-width: 5px;
+    border-radius: 0.5rem;    
+    margin: 1rem 0rem;
+    padding: 1rem 1rem;
+}
+
+.label{
+    font-size: large;
+}
+
+.footer{
+    background-color: var(--primary-color);    
+    padding: 0.5rem;         
+    text-align: center; 
+   
+}
+
+footer p{
+    max-width: 600px;
+    margin: auto;
+    font-size: large;
+    padding-bottom: 1rem;
+}
+.background-image{
+    background-image: url("minions.png"); 
+    background-color: white; 
+   max-height: 1%;
+   width: 0px;
+   height: 0px;
+    background-position: left;
+   
+    background-repeat: no-repeat; 
+}
